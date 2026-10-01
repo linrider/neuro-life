@@ -1,0 +1,14 @@
+[project]
+name = "neuro-life"
+version = "0.1.0"
+description = "A small artificial life simulation with neural-network-controlled agents."
+requires-python = ">=3.13"
+dependencies = [
+    "pygame",
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
